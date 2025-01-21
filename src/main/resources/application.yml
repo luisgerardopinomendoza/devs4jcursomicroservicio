@@ -6,8 +6,16 @@ spring:
           uri: https://github.com/luisgerardopinomendoza/devs4jcursomicroservicio
           default-label: main
           clone-on-start: true
+  profiles:
+    active:
+      - dev
+      - prod
+      - default
 server:
   port: 8888
+
+
+
 
 
 
