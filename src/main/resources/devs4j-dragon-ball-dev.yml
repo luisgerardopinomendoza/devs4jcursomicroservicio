@@ -1,5 +1,5 @@
 spring:
   application:
-    name:"configuration by dev"
+    name: "configuration by dev"
   profiles:
-    active = dev
+    active: dev
